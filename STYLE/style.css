@@ -1,0 +1,169 @@
+body{
+
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color:#000;
+}
+
+
+    
+
+a:link{
+    color: rgb(249, 116, 187);
+}
+a:visited{
+    color:rgba(246, 115, 185, 0.615);
+}
+a:hover{
+    background-color:rgba(23, 75, 135, 0.526);
+    color:white;
+}
+a:active{
+    color:beige;
+}
+
+    
+.logo{
+    font-size:36px;
+    font-weight:bold;
+}
+
+#navlist a{
+    text-decoration:none;
+}
+#navlist li{
+    display:inline;
+    list-style-type:circle;
+    padding-right:20px;
+    border-left:1px solid #000;
+    line-height:1.1em;
+    margin:0 .5em 0 -.5em;
+    padding:0 .5em 0 .5em;
+   
+}
+#image{
+   width:100%;
+   float: left;
+
+}
+.contactlogo{
+ 
+    float:left;
+   
+}
+.centrephoto{
+    width:100%;
+    
+}
+.leftPhoto{
+    width:100%;
+}
+.contact{
+   font-size: 1em;
+   align-items: center;
+
+}
+.box{
+    margin:10px;
+    padding:10px;
+    background-color:#666;
+    border-width:1px;
+    border-radius: 10px;
+    border-color:black;
+    border-style:solid;
+    clear:both;
+}
+
+.nav{
+    margin:10px;
+    padding:10px;
+    background-color:rgb(206, 206, 206);
+    border-width:1px;
+    border-color:black;
+    border-style:solid;
+    border-radius: 10px;
+}
+
+.left{
+    width:20%;
+    margin:10px;
+    background-color: white;
+    float:left;
+    display:flex;
+    flex-direction:column;
+    gap:1em;
+    
+}
+#leftTop{
+    padding:10px;
+    background-color: #CCC;
+    border-width:1px;
+    border-color:black;
+    border-style:solid;
+    border-radius: 10px;
+
+}
+#leftBottom{
+    padding:10px;
+    background-color: #CCC;
+    border-width:1px;
+    border-color:black;
+    border-style:solid;
+    border-radius: 10px;
+
+}
+.centre{
+    width:47%;
+    margin:10px;
+    padding:10px;
+    background-color:#CCC;
+    border-width:1px;
+    border-color:black;
+    border-style:solid;
+    border-radius: 10px;
+    float:left;
+   
+    
+}
+
+.right{
+    width:20%;
+    margin:10px;
+    padding:10px;
+    background-color:#CCC;
+    border-width:1px;
+    border-color:black;
+    border-style:solid;
+    border-radius: 10px;
+    float:right;
+   
+}
+
+.lower_nav{
+    margin:10px;
+    padding:10px;
+    background-color:rgb(206, 206, 206);
+    border-width:1px;
+    border-color:black;
+    border-style:solid;
+    border-radius: 10px;
+    clear:both;
+}
+
+.legal{
+    margin:10px;
+    padding:10px;
+    background-color:#999;
+    border-width:1px;
+    border-color:black;
+    border-style:solid;
+    border-radius: 10px;
+    float:none;
+    clear:both;
+}
+
+.deadnav{
+    color:#FFF;
+    background-color: rgba(246, 115, 185, 0.615);
+}
